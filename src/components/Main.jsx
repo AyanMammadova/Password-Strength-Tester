@@ -41,7 +41,7 @@
             for (let pattern of allPatterns) {
                 if (pattern.includes(password.toLowerCase())) {
                     setStrength(0);
-                    setLabel('Very Weak (Dublicate Characters)');
+                    setLabel('Very Weak (Sequential Characters)');
                     setColor('text-red-500');
                     return;
                 }
